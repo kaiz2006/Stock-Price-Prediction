@@ -1,56 +1,48 @@
-📈 Stock Price Prediction using KNN
+# 📈 Stock Price Prediction using KNN
 
-A simple machine learning project that predicts stock prices using the K-Nearest Neighbors (KNN) algorithm. This project demonstrates basic time-series preprocessing, feature scaling, and regression using Python.
+A basic machine learning project that predicts stock closing prices using the **K-Nearest Neighbors (KNN)** algorithm. The project demonstrates data preprocessing, feature scaling, model training, and visualization using Python.
 
-🚀 Overview
+---
 
-This project builds a stock price prediction model based on historical market data. It uses the KNN regression approach to estimate future prices by identifying similar past patterns.
+## 🚀 Overview
 
-Key highlights:
+This project uses historical stock market data to train a KNN regression model that estimates future prices based on similarity to past data points.
 
-Data preprocessing and cleaning
+**Features**
+- Data cleaning and preprocessing  
+- Feature scaling  
+- KNN regression model  
+- Model evaluation  
+- Actual vs Predicted visualization  
 
-Feature scaling
+---
 
-KNN regression model
+## 🛠️ Tech Stack
 
-Model evaluation and visualization
+- Python  
+- NumPy  
+- Pandas  
+- Scikit-learn  
+- Matplotlib  
+- Jupyter Notebook  
 
-🛠️ Tech Stack
+---
 
-Python
+## 📊 Workflow
 
-NumPy
+- Load historical stock data
 
-Pandas
+- Preprocess and clean dataset
 
-Scikit-learn
+- Normalize features
 
-Matplotlib
+- Train KNN regressor
 
-Jupyter Notebook
+- Evaluate model
 
+- Plot actual vs predicted prices
 
-📊 How It Works
+## 📈 Results
 
-Load historical stock data
+- The model predicts stock prices based on nearest neighbor similarity. Performance depends on the choice of k, feature engineering, and data quality.
 
-Clean and preprocess the dataset
-
-Scale features using normalization
-
-Train KNN regressor
-
-Evaluate predictions
-
-Visualize actual vs predicted prices
-
-📈 Results
-
-The model predicts stock closing prices based on historical trends. Performance depends on:
-
-Number of neighbors (k)
-
-Feature selection
-
-Data quality
